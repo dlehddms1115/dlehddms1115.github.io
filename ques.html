@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CAT & DOG </title>
+		<style>
+			body{
+				min-width:780px;
+			}
+			#header {
+				font-family:"Georgia";
+				font-style: italic;
+				text-align: center;
+				font-size:50pt;
+				margin-top:30px;
+				background-color: white;
+				width: 100%;
+				height: 100px;
+			}
+			#nav {
+				border: 1px solid;
+				border-color: gray;
+				width: 180px;
+				background-color: white;
+				height: 1040px;
+				float: left;
+				font-size:20px;
+			}
+			#content {
+				padding: 40px 40px 0px 220px;
+				text-align:center;
+				background-image: url('back.jpg');
+				height: 1000px;
+				font-size: 15px;
+			}
+			#welcome{
+				text-align:center;
+				border: 1px solid;
+				padding : 10px 10px;
+				background-color: silver;
+				min-width:200px;
+				font-size: 20px;
+			}
+			#welcome em{
+			    color:red;
+			}
+			#footer {
+				background-color: white;
+				width: 100%;
+				clear: both;
+			}
+			#logo{
+				position:absolute;
+				top:30px;
+				left:30px;
+			}
+			ul {
+				background-color:white;
+				list-style:none;
+				margin:0px;
+				padding:5px 0;
+			}
+			ul li {
+				display:block;
+				padding:0 10px;
+			}
+			ul li a{ 
+				color:gray;
+				font-weight:bold;
+				text-decoration:none; 
+			}
+			ul li a:hover { 
+				color:black;
+				font-weight:bold;
+				text-decoration:none; 
+			}
+			#jump{
+				position:absolute;
+				font-size:20px;
+				color:gray;
+				top:90px;
+				right:40px;
+			}
+			#cat {
+			    border-collapse:collapse;
+			    margin-top:30px;
+			    margin-left:auto;
+			    margin-right:auto;
+			    font-family: "Trebuchet MS",sans-serif;
+			    border: 1px solid;
+			    background-color: white;
+		    }
+		    #cat td, #cat th {
+		        border: 1px dotted gray;
+		        text-align: center;
+		    }
+		    #cat th {
+		        color: black;
+		        background-color: violet;
+		    }
+		    #cat tr.alt td {
+		        background-color: pink;
+		    }
+		    #cat tr td a{
+		        text-decoration: none;
+		        color: black;
+		    }
+		    #cat tr td a:hover{
+		        text-decoration: underline;
+		        color:red;
+		    }
+		    #dog {
+			    border-collapse:collapse;
+			    margin-top:30px;
+			    margin-left:auto;
+			    margin-right:auto;
+			    font-family: "Trebuchet MS",sans-serif;
+			    border: 1px solid;
+			    background-color: white;
+		    }
+		    #dog td, #dog th {
+		        border: 1px dotted gray;
+		        text-align: center;
+		    }
+		    #dog th {
+		        color: black;
+		        background-color: aqua;
+		    }
+		    #dog tr.alt td {
+		        background-color: skyblue;
+		    }
+		    #dog tr td a{
+		        text-decoration: none;
+		        color: black;
+		    }
+		    #dog tr td a:hover{
+		        text-decoration: underline;
+		        color:blue;
+		    }
+			caption{
+			    background-color: white;
+			    caption-side:bottom;
+			    font-style:italic;
+		    }
+		</style>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<a id="logo" href="2015313106_HW1.html">
+					<img border="0" src="D.png" width="100" height="80">
+				</a>
+				CAT & DOG
+				<a id="jump" href="#footer"> contact </a>
+			</div>
+			<hr/>
+			<div id="nav">
+				<ul>
+				<br>
+					<li>
+						<img src="me.PNG" width="15" height="20">
+						<a href="me.html">나의 소개</a>
+					</li>
+					<br>
+					<li>
+						<img src="site.PNG" width="20" height="20">
+						<a href="site.html">사이트 소개</a>
+					</li>
+					<br>
+					<li>
+						<img src="ques.PNG" width="20" height="20">
+						<a href="ques.html">품종 소개</a>
+					</li>
+					<br>
+					<li>
+						<img src="first.PNG" width="25" height="20">
+						<a href="pick.html">유명멍냥 소개</a>
+					</li>
+					<br>
+					<li>
+						<img src="down.PNG" width="20" height="20">
+						<a href="source.html">출처</a>
+					</li>
+				</ul>
+			</div>
+			<div id="content">
+				<div id="welcome">
+					고양이와 강아지의 인기 품종별 특성을 정리한 <em>표</em>입니다. 관심있는 품종 이름을 클릭해 보세요!
+				</div>
+				<table id="cat">
+				    <caption> 고양이 </caption>
+				    <tr>
+				        <th>품종</th>
+				        <th>크기</th>
+				        <th>활동성</th>
+				        <th>그루밍</th>
+				        <th>친화력</th>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1157719&cid=40942&categoryId=32624" target="_blank">페르시안</a></td>
+				        <td>중간</td>
+				        <td>매우낮음</td>
+				        <td>매일</td>
+				        <td>높음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1319021&cid=40942&categoryId=32624" target="_blank">메인쿤</a></td>
+				        <td>큼</td>
+				        <td>높음</td>
+				        <td>일주일에 두번</td>
+				        <td>높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1319005&cid=40942&categoryId=32624" target="_blank">이그저틱</a></td>
+				        <td>조금큼</td>
+				        <td>매우낮음</td>
+				        <td>보통</td>
+				        <td>높음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1110852&cid=40942&categoryId=32624" target="_blank">샴</a></td>
+				        <td>중간</td>
+				        <td>매우높음</td>
+				        <td>가끔</td>
+				        <td>보통</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1121092&cid=40942&categoryId=32624" target="_blank">아비시니아</a></td>
+				        <td>중간</td>
+				        <td>매우높음</td>
+				        <td>보통</td>
+				        <td>보통</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1320195&cid=40942&categoryId=32624" target="_blank">랙돌</a></td>
+				        <td>큼</td>
+				        <td>보통</td>
+				        <td>상대적으로 자주</td>
+				        <td>높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1319014&cid=40942&categoryId=32624" target="_blank">버만</a></td>
+				        <td>중간</td>
+				        <td>조금낮음</td>
+				        <td>자주</td>
+				        <td>높음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1319017&cid=40942&categoryId=32624" target="_blank">아메리칸숏헤어</a></td>
+				        <td>중간</td>
+				        <td>보통</td>
+				        <td>거의안함</td>
+				        <td>매우높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1320192&cid=40942&categoryId=32624" target="_blank">오리엔탈</a></td>
+				        <td>중간</td>
+				        <td>매우높음</td>
+				        <td>상대적으로안함</td>
+				        <td>보통</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=1320199&cid=40942&categoryId=32624" target="_blank">스핑크스</a></td>
+				        <td>중간</td>
+				        <td>높음</td>
+				        <td>메우자주</td>
+				        <td>높음</td>
+				    </tr>
+				</table>
+				<table id="dog">
+				    <caption> 강아지 </caption>
+				    <tr>
+				        <th>품종</th>
+				        <th>크기</th>
+				        <th>활동성</th>
+				        <th>털손질</th>
+				        <th>훈련가능성</th>
+				        <th>친화력</th>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989107&cid=46677&categoryId=46677" target="_blank">요크셔테리어</a></td>
+				        <td>작음</td>
+				        <td>매우높음</td>
+				        <td>매우어려움</td>
+				        <td>보통</td>
+				        <td>조금낮음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989090&cid=46677&categoryId=46677" target="_blank">시츄</a></td>
+				        <td>작음</td>
+				        <td>조금낮음</td>
+				        <td>매우어려움</td>
+				        <td>보통</td>
+				        <td>조금높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989087&cid=46677&categoryId=46677" target="_blank">푸들</a></td>
+				        <td>큼</td>
+				        <td>조금높음</td>
+				        <td>매우어려움</td>
+				        <td>매우높음</td>
+				        <td>매우높음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989041&cid=46677&categoryId=46677" target="_blank">래브라도 리트리버</a></td>
+				        <td>큼</td>
+				        <td>매우높음</td>
+				        <td>매우쉬움</td>
+				        <td>매우높음</td>
+				        <td>매우높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989145&cid=46677&categoryId=46677" target="_blank">포메라니안</a></td>
+				        <td>작음</td>
+				        <td>보통</td>
+				        <td>조금어려움</td>
+				        <td>조금높음</td>
+				        <td>조금낮음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989048&cid=46677&categoryId=46677" target="_blank">미니어처 슈나우저</a></td>
+				        <td>작음</td>
+				        <td>매우높음</td>
+				        <td>조금어려움</td>
+				        <td>매우높음</td>
+				        <td>보통</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989089&cid=46677&categoryId=46677" target="_blank">시베리안 허스키</a></td>
+				        <td>중간</td>
+				        <td>매우높음</td>
+				        <td>조금어려움</td>
+				        <td>조금어려움</td>
+				        <td>매우높음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989149&cid=46677&categoryId=46677" target="_blank">프렌치 불독</a></td>
+				        <td>중간</td>
+				        <td>보통</td>
+				        <td>매우쉬움</td>
+				        <td>조금쉬움</td>
+				        <td>조금높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989117&cid=46677&categoryId=46677" target="_blank">저먼 셰퍼드</a></td>
+				        <td>큼</td>
+				        <td>매우높음</td>
+				        <td>매우쉬움</td>
+				        <td>매우높음</td>
+				        <td>매우높음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989027&cid=42883&categoryId=44358" target="_blank">골든 리트리버</a></td>
+				        <td>큼</td>
+				        <td>매우높음</td>
+				        <td>조금어려움</td>
+				        <td>매우높음</td>
+				        <td>매우높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989036&cid=46677&categoryId=46677" target="_blank">닥스훈트</a></td>
+				        <td>작음</td>
+				        <td>보통</td>
+				        <td>보통</td>
+				        <td>조금어려움</td>
+				        <td>매우높음</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989109&cid=46677&categoryId=46677" target="_blank">웰시 코기</a></td>
+				        <td>중간</td>
+				        <td>조금높음</td>
+				        <td>조금쉬움</td>
+				        <td>매우높음</td>
+				        <td>조금높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989039&cid=46677&categoryId=46677" target="_blank">도베르만 핀셔</a></td>
+				        <td>큼</td>
+				        <td>보통</td>
+				        <td>매우쉬움</td>
+				        <td>매우높음</td>
+				        <td>보통</td>
+				    </tr>
+				    <tr class="alt">
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989127&cid=46677&categoryId=46677" target="_blank">치와와</a></td>
+				        <td>매우작음</td>
+				        <td>보통</td>
+				        <td>매우쉬움</td>
+				        <td>조금높음</td>
+				        <td>매우높음</td>
+				    </tr>
+				    <tr>
+				        <td><a href="http://terms.naver.com/entry.nhn?docId=989072&cid=46677&categoryId=46677" target="_blank">비글</a></td>
+				        <td>중간</td>
+				        <td>조금높음</td>
+				        <td>조금쉬움</td>
+				        <td>보통</td>
+				        <td>매우높음</td>
+				    </tr>
+				</table>
+			</div>
+			<hr/>
+			<hr/>
+			<div id="footer">
+				<h2>Contact to me</h2>
+				<div style="border: 1px solid black;">
+					<h3>&nbsp;&nbsp;공지사항</h3>
+					<p>
+						&nbsp;&nbsp;1. 메일 : dlehddms1115@gmail.com<br/>
+						&nbsp;&nbsp;2. 시간 : 월~금 14:00 ~ 20:00<br/>
+						&nbsp;&nbsp;3. 연락하기 : 아래 양식을 빠짐없이 작성하여 연락해 주세요<br/>
+					</p>
+				</div>
+
+				<h3> 양식 </h3>
+				<form action="MAILTO:dlehddms1115@gmail.com" method="post">
+					<p>
+						이름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
+						이메일 주소 <input type="email" name="mail">
+					</p>
+					<p>
+						<fieldset>
+							<legend>연락 사유 선택</legend>
+							<input type="radio" name="why" value="add"> 정보 추가 요청
+							<input type="radio" name="why" value="wrong"> 정보 수정 요청
+							<input type="radio" name="why" value="question"> 궁금한 점이 있음
+							<input type="radio" name="why" value="other"> 기타 사유
+						</fieldset>
+					</p>
+					나이대&nbsp;&nbsp;&nbsp;
+					<select name="jobs">
+						<option value="a">10대</option>
+						<option value="b">20대</option>
+						<option value="c">30대</option>
+						<option value="d">40대</option>
+						<option value="e">50대</option>
+						<option value="f">60대이상</option>
+					</select>
+					<br><br>
+					남길말씀 <textarea name="comment" rows="5" cols="50"></textarea><br>
+					<hr/>
+					<input type="submit" value="메일 보내기"/>
+					<input type="reset" value="다시쓰기"/>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
